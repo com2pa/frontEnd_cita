@@ -46,7 +46,7 @@ export const Home = () => {
                   boxShadow='dark-lg'
                   href="/contact" 
                   target="_blank"
-                  onClick={()=>navToPage('/Contact')}
+                  onClick={()=>navToPage('/contact')}
                 > Pide tu cita!</Button>
               </Card>
               <Card 

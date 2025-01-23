@@ -1,7 +1,6 @@
 
 import {  Route, Routes } from 'react-router-dom';
 import Home from '../pages/Home';
-import Services from '../pages/Services';
 import Contact from '../pages/Contact';
 import Index from '../pages/Login/Index';
 import RegisterFrom from '../pages/Login/RegisterForm';
@@ -16,8 +15,7 @@ export const Root = () => {
       <Routes>
         <Route element={<PersistAuth />}>
           <Route path='/' element={<Home />} />   
-        </Route>        
-        {/* <Route path='/services' element={<Services />} /> */}
+        </Route>  
         <Route path='/contact' element={<Contact />} />
         <Route path='/sesion' element={<Index />} />
         <Route path='/register' element={<RegisterFrom />} />
